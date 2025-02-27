@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e76e9aed11f2384fb3371eced7c67c7, type: 3}
+  m_Name: Rifle
+  m_EditorClassIdentifier: 
+  <Id>k__BackingField: 16bd1ad5-bdfa-47f8-8350-e69bfebad94a
+  <Name>k__BackingField: Rifle
+  <Type>k__BackingField: 3
+  <Icon>k__BackingField: {fileID: -1068640092, guid: cd059cefd1cba3149be7e9a10b79f471, type: 3}
+  <ItemWeight>k__BackingField: 5
+  <Stackable>k__BackingField:
+    <IsStackable>k__BackingField: 0
+    <Amount>k__BackingField: 1
+    <MaxStackValue>k__BackingField: 1
+  <Properties>k__BackingField:
+    rid: 4197283971638493191
+  references:
+    version: 2
+    RefIds:
+    - rid: 4197283971638493191
+      type: {class: WeaponProperties, ns: , asm: Assembly-CSharp}
+      data:
+        <Stat>k__BackingField: 2
+        <Value>k__BackingField: 20
+        <AmmoType>k__BackingField: 1
