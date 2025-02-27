@@ -18,7 +18,7 @@ public class SlotView : MonoBehaviour, IItemContainer , IPointerClickHandler
     public void Initialize(SlotData slotData)
     {
         SlotData = slotData;
-        if (SlotData.ItemData?.Type != ItemType.None)
+        if (SlotData.ItemData?.Type != ItemType.None && SlotData.ItemData != null)
         {
             AddItem(SlotData.ItemData);         
         }

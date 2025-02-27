@@ -16,7 +16,10 @@ public class ItemView : MonoBehaviour, IDraggable
     public void Initialize(ItemData itemData)
     {
         ItemData = itemData;
-        ItemData.Stackable.OnValueChangeEvent += UpdateView;
+        if (ItemData == null)
+        {
+            ItemData.Stackable.OnValueChangeEvent += UpdateView;
+        }
         UpdateView();
     }
 
